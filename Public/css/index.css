@@ -1,0 +1,269 @@
+body
+{
+font: 12px/150% Arial,Verdana,"宋体";
+}
+.head
+{
+	float:left;
+	background:#F5F5F5;
+	width:100%;
+	height:30px;
+	padding-top:5px;
+	padding-left:10px;
+	font:12px/1.5 tahoma,arial,"Hiragino Sans GB",宋体,sans-serif;
+}
+
+.login
+{
+	float:left;
+	color:red;
+}
+.register
+{
+	float:left;
+	margin-left:20px;
+	color:#6C6C6C;
+}
+.bage
+{
+	float:right;
+	color:#6C6C6C;
+	margin-right:20px;
+	text-indent:28px;
+}
+.link
+{
+	float:right;
+	color:#6C6C6C;
+	margin-right:20px;
+}
+#mid{
+	float:left;
+	width:100%;
+}
+.logo
+{
+	float:left;
+	width:40%;
+}
+.search
+{
+	float:right;
+	width:60%;
+	margin-top:50px;	
+}
+.logo-img
+{
+	width:150px;
+	padding-top:20px;
+	padding-left:70px;
+}
+.search_input
+{
+	width:400px;
+	height:20px;
+}
+.mid-mid
+{
+	float:left;
+}
+.mid-mid-top
+{
+	width:80%;
+	
+	float:left;
+	margin-top:10px;
+	margin-left:10%;
+}
+.all
+{
+	width:20%;
+	height:40px;
+	float:left;
+	color:#ffffff;
+	font-family: "microsoft yahei";
+	font-size:16px;
+	padding-top:8px;
+	margin-left:8px;
+}
+.other
+{
+	width:65%;
+	height:40px;
+	float:left;
+	color:#ffffff;
+	font-family: "microsoft yahei";
+	font-size:16px;
+	
+}
+.sy
+{
+	float:left;
+	padding-left:20px;
+	background:#A40000;
+	width:55px;
+	height:40px;
+	padding-top:8px;
+}
+.food
+{
+	float:left;
+	padding-left:20px;
+	height:32px;
+	padding-top:8px;
+}
+.clother
+{
+	float:left;
+	padding-left:20px;
+	height:32px;
+	padding-top:8px;
+}
+.tuan
+{
+	float:left;
+	padding-left:20px;
+	height:32px;
+	padding-top:8px;
+}
+.mid-left
+{
+	width:20.6%;
+	border:1px red solid;
+}
+ul
+{
+    font-weight: 700;	
+}
+li
+{
+	list-style-type:none;
+}
+s
+{
+	float:right;
+	width:19px;
+	height:18px;
+	background:url('/shop/public/img/ico.png');
+}
+.mid-z
+{
+float:left;
+margin-top:-390px;
+margin-left:230px;
+}
+.mid-right
+{
+	float:right;
+	margin-top:-35%;
+	width:150px;
+}
+.title
+{
+	font-family: "microsoft yahei";
+}
+.info
+{
+	
+}
+.mid-button
+{
+	width:100%;
+	height:200px;
+	float:left;
+}
+.small-mid-top
+{
+	height:40px;
+	background:#E4393C;
+}
+.good{
+	width:80%;
+	height:250px;
+	margin-left:80px;
+}
+.goods
+{
+	border:1px solid red;
+	float:left;
+	width:200px;
+	height:200px;
+}
+.goods-img
+{
+	padding:10px;
+}
+.footer
+{
+	 
+}
+.login-model
+{
+	width:400px;
+	height:400px;
+	background:#ffffff;	
+	position:fixed;
+	top:200px;
+	left:400px;
+}
+.login-title
+{
+	width:100%;
+	height:40px;
+	background:#F7F7F7;
+	float:left;
+}
+.login-input
+{
+	float:left;
+}
+.email
+{
+	margin-top:60px;
+	width:200px;
+	height:20px;
+	margin-left:80px;
+}
+.psw
+{
+	margin-top:10px;
+	width:200px;
+	height:20px;
+	margin-left:80px;
+}
+.btn-login
+{
+	width:200px;
+	height:50px;
+	margin-top:20px;
+	margin-left:80px;
+}
+.login-head-title
+{
+	float:left;
+}
+.main-close
+{
+	float:right;
+}
+#register
+{
+	width:400px;
+	height:400px;
+	margin-top:200p;
+	left:400px;
+	top:200px;
+	position:fixed;
+	background:#ffffff;
+}
+.btn-register
+{
+	width:200px;
+	height:50px;
+	margin-top:20px;
+	margin-left:80px;
+}
+.goods_pic
+{
+	height:100px;
+}

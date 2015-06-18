@@ -1,0 +1,62 @@
+<html>
+<head>
+					<!--导入jquery-->
+			<script src="__PUBLIC__/jquery/jquery.min.js">
+			</script>
+			<script src="__PUBLIC__/jquery/jquery.cookie.js">
+			</script>
+		<!--导入jquery-->
+		
+		<!--导入boostrap框架-->
+			<script src="__PUBLIC__/bootstrap/js/bootstrap.min.js">
+			</script>
+			<link type="text/css" rel="stylesheet" href="__PUBLIC__/bootstrap/css/bootstrap.min.css" />
+		<!--导入boostrap框架-->
+</head>
+<body>
+	<div style="height:400px;width:400px;margin-top:10%;margin-left:30%;border:1px solid red;">
+			<form class="form-horizontal form" role="form" method="post" action="{:U('check')}">
+   <div class="form-group">
+		<label for="username" class="col-sm-2 control-label">用户名</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="username"  name="username"
+				placeholder="请输入邮箱">
+		</div>
+	</div>
+
+	
+	   <div class="form-group">
+		<label for="password" class="col-sm-2 control-label">密码</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="password"  name="password"
+				placeholder="请输入邮箱">
+		</div>
+	</div>
+	
+	<div>
+		<label for="yzm" class="col-sm-2 control-label">验证码</label>
+		<div class="col-sm-5">
+			<input type="text" class="form-control" id="yzm"  name="verify"
+				placeholder="请输入验证码">
+		</div>
+		<div class="col-sm-5">
+			<img id="verify" src="{:U('verify')}" />
+		</div>
+	</div>
+
+   <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+		 <button type="submit" class="btn btn-default">提交</button>
+      </div>
+   </div>
+
+	</form>
+	</div>
+<script>
+	$("#verify").click(function(){
+		$(this).attr("src","{:U('verify')}"+"?random="+Math.random())
+	})
+</script>
+</body>
+
+</html>
